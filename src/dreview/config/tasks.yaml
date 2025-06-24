@@ -1,0 +1,82 @@
+evaluate_discovery:
+  description: >
+    Analyze early-stage discovery content and determine whether the seller has effectively uncovered pain,
+    implications, and buyer motivation using SPIN and Challenger principles.
+  expected_output: >
+    List of discovery gaps, missing buyer context, and a qualitative discovery effectiveness score.
+  agent: discovery_agent
+
+evaluate_messaging:
+  description: >
+    Review how the seller articulates value, differentiation, and proof in their messaging and conversations.
+  expected_output: >
+    Messaging effectiveness score, breakdown of differentiation elements, and coaching recommendations.
+  agent: commandofthemessage_agent
+
+assess_challenger_behavior:
+  description: >
+    Determine whether the rep is teaching new perspectives, tailoring the message to stakeholder needs,
+    and maintaining appropriate control of the sales process.
+  expected_output: >
+    Challenger behavior rating, transcript examples, and coaching prompts.
+  agent: challenger_agent
+
+analyze_spin_questioning:
+  description: >
+    Evaluate how well the rep used Situation, Problem, Implication, and Need-Payoff questions during discovery.
+  expected_output: >
+    Transcript annotation with SPIN mapping, missed opportunities, and improvement suggestions.
+  agent: spin_agent
+
+evaluate_buyer_alignment:
+  description: >
+    Assess whether the deal strategy aligns with the buyer’s success criteria, business case, and buying process.
+  expected_output: >
+    Alignment report including gaps, risks, and buyer-centric action suggestions.
+  agent: customer_centric_agent
+
+generate_manager_coaching:
+  description: >
+    Generate a summary of the deal’s current state and provide coaching questions for the sales manager
+    to guide the rep effectively.
+  expected_output: >
+    Deal coaching summary, manager-level questions, and escalation indicators if needed.
+  agent: manager_insight_agent
+
+assess_deal_health:
+  description: >
+    Use activity data and buyer engagement signals to evaluate deal velocity, responsiveness,
+    and multithreading quality.
+  expected_output: >
+    Deal health score, timeline visualization, and risk commentary.
+  agent: deal_health_agent
+
+recommend_next_steps:
+  description: >
+    Recommend specific next actions for the rep, manager, and buyer with clear ownership and due dates.
+  expected_output: >
+    Next step plan with action owners, rationale, and projected impact.
+  agent: action_planner_agent
+
+summarize_deal_review:
+  description: >
+    Create a concise and actionable summary of the deal review including decisions made, insights gained,
+    and follow-up tasks.
+  expected_output: >
+    Review summary doc, CRM update payload, and Slack/email-compatible message.
+  agent: recap_agent
+
+evaluate_meddpicc:
+  description: >
+    Assess how well the deal adheres to the MEDDPICC qualification framework and identify gaps in coverage.
+  expected_output: >
+    MEDDPICC scoring breakdown, risk flags, and suggestions for improvement.
+  agent: meddpicc_agent
+
+evaluate_sss:
+  description: >
+    Apply Sophisticated Software Selling principles to the deal and evaluate narrative strength,
+    stakeholder alignment, and urgency creation.
+  expected_output: >
+    SSS method compliance report, strategic narrative evaluation, and storytelling improvements.
+  agent: sss_agent

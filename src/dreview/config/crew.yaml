@@ -1,0 +1,21 @@
+crew:
+  name: Deal Review AI Crew
+  description: >
+    A team of AI-powered specialists that guide sellers, solution engineers, and sales managers through
+    structured, insight-driven deal reviews. Each sales agent brings deep knowledge of a specific sales methodology,
+    turning deal reviews from story time into high-impact coaching and decision-making experiences.
+
+  agents_file: config/agents.yaml
+  tasks_file: config/tasks.yaml
+  process:
+    - evaluate_discovery
+    - evaluate_messaging
+    - assess_challenger_behavior
+    - analyze_spin_questioning
+    - evaluate_buyer_alignment
+    - generate_manager_coaching
+    - assess_deal_health
+    - evaluate_meddpicc
+    - evaluate_sss
+    - recommend_next_steps
+    - summarize_deal_review
