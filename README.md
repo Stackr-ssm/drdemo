@@ -1,8 +1,8 @@
-# The Deal Review AI Framework
+# The Deal Review AI Framework Demo
 ## Powered by stackr.ai
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/533dff19-8e4a-4b92-b311-6e990c164b41" alt="stackr.ai Logo" width=400/>
-</p>  
+  <img src="assets/stackr_FullLogo_small.png" alt="stackr.ai" width=300>
+</p>
 
 Welcome to the Deal Review AI Framework – your sales team's new secret weapon for turning storytime into closetime.
 
